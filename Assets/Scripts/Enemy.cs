@@ -9,6 +9,9 @@ public class Enemy
     private int attack;
     private string name;
 
+    public int Health { get { return health; } set { health = value; } }
+    public string Name { get { return name; }  }
+
     //This is the constructor
     public Enemy(int _health, int _attack, string _name)
     {
