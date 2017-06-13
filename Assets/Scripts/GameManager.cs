@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour {
         Debug.Log("*Some hero music playing...*");
 
         //Atack Enemy 1 with magic power - 3 times
+        Debug.Log("Hero atacks enemy 1.");
+        Debug.Log(">>>>>>>");
         for (int i = 0; i < 3; i++)
         {
             int resitMagicDmg = Random.Range(100, hero.Magic);
